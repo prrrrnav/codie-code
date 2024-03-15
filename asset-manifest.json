@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/codie-code/static/css/main.ca9c7310.css",
+    "main.js": "/codie-code/static/js/main.1bdc9bb8.js",
+    "index.html": "/codie-code/index.html",
+    "main.ca9c7310.css.map": "/codie-code/static/css/main.ca9c7310.css.map",
+    "main.1bdc9bb8.js.map": "/codie-code/static/js/main.1bdc9bb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca9c7310.css",
+    "static/js/main.1bdc9bb8.js"
+  ]
+}
