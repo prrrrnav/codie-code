@@ -26,10 +26,10 @@ const Navbar = () => {
 
             <div className={`${menu ? " flex flex-auto  top-15 justify-center gap-10 py-3 bg-black w-full left-0 h-15 text-white md:absolute  " : "   hidden  flex-auto absolute top-20 justify-center gap-10  w-full left-0 h-10 text-white md:absolute md:top-7 md:flex "} `}>
                 <div className='text-xl hover:text-neutral-500 hover:origin-top transition-all duration-500 cursor-pointer md:text-base'>
-                    <Link to={'codie-code/'}>Home</Link>
+                    <Link to={'/'}>Home</Link>
                     </div>
                 <div className='text-xl hover:text-neutral-500 hover:origin-top transition-all duration-500 cursor-pointer md:text-base'>
-                <Link to={'codie-code/Codebase'}>Codebase</Link>
+                <Link to={'/Codebase'}>Codebase</Link>
                     
                     </div>
             </div>
