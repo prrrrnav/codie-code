@@ -1,17 +1,21 @@
-import Hero from './Hero';
 import Navbar from './Navbar';
-import Bottom from './Bottom';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import Codebase from './Codebase';
 
 
 
 function App() {
   return (
     <div className="bg-black h-auto w-auto ">
-      <Navbar/>
-      <Hero/>
-      <Bottom/>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home/>} />     
+        <Route path='/Codebase' element={<Codebase/>} />   
+      </Routes>
+
     </div>
+
   );
 }
 
