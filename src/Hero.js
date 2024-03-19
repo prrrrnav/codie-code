@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <div className='  pb-10 text-white'>
             {/* <hr className=' mb-10'></hr> */}
-            <div className='px-10 text-4xl pt-20 text-center hover: origin-top transition-all  duration-1000 mb-32 '>Here we are all about <br></br> <i className='text-8xl text-gray-500 '>coding our way up</i> </div>
+            <div className='px-10 text-4xl pt-10 text-center hover: origin-top transition-all  duration-1000 mb-32 '>Here we are all about <br></br> <i className='text-8xl text-gray-500 '>coding our way up</i> </div>
             <img src='https://images.unsplash.com/photo-1626624338641-b99e0d32c958?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='hero' className='mt-20 w-full h-90 object-cover rounded-xl shadow-lg 
             border
             hover:opacity-80 transition duration-300 ease-in-out border-white '  />
