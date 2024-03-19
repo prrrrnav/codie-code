@@ -7,7 +7,7 @@ const Hero = () => {
             <div className='px-10 text-4xl pt-10 text-center hover: origin-top transition-all  duration-1000 mb-32 '>Here we are all about <br></br> <i className='text-8xl text-gray-500 '>coding our way up</i> </div>
             <img src='https://images.unsplash.com/photo-1626624338641-b99e0d32c958?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='hero' className='mt-20 w-full h-90 object-cover rounded-xl shadow-lg 
             border
-            hover:opacity-80 transition duration-300 ease-in-out border-white '  />
+            hover:opacity-80 transition duration-300 ease-in-out border-white md:px-10 '  />
             {/* <div class="relative h-90">
                 <img src="https://images.unsplash.com/photo-1589287707312-213624549c88?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Paparazzi" class=" w-full mt-20 h-auto rounded-xl object-contain "></img>
                     <div class="absolute inset-0 flex items-center
