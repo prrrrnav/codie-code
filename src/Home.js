@@ -6,8 +6,7 @@ import Bottom from './Bottom';
 
 const Home = () => {
   return (
-    <div>
-      
+    <div>      
       <Hero/>
       <Bottom/>
     </div>

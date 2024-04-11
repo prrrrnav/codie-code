@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className=' flex justify-between items-center text-white pl-10 pr-10 p-5 py-10  sm:flex flex-auto sm:pl-10 sm:pr-10 sm:p-5 ' >
                 <div className=' top-7 left-10 text-2xl cursor-pointer'>Codie-code</div>
                 <div>
-                    <span class="material-symbols-outlined cursor-pointer md:hidden" onClick={handleMenu}>
+                    <span className="material-symbols-outlined cursor-pointer md:hidden" onClick={handleMenu}>
                         menu
                     </span>
                 </div>
