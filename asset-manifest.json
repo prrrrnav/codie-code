@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/codie-code/static/css/main.68b0f12e.css",
-    "main.js": "/codie-code/static/js/main.5aaa2625.js",
+    "main.css": "/codie-code/static/css/main.3f2e4843.css",
+    "main.js": "/codie-code/static/js/main.dbb9a471.js",
     "index.html": "/codie-code/index.html",
-    "main.68b0f12e.css.map": "/codie-code/static/css/main.68b0f12e.css.map",
-    "main.5aaa2625.js.map": "/codie-code/static/js/main.5aaa2625.js.map"
+    "main.3f2e4843.css.map": "/codie-code/static/css/main.3f2e4843.css.map",
+    "main.dbb9a471.js.map": "/codie-code/static/js/main.dbb9a471.js.map"
   },
   "entrypoints": [
-    "static/css/main.68b0f12e.css",
-    "static/js/main.5aaa2625.js"
+    "static/css/main.3f2e4843.css",
+    "static/js/main.dbb9a471.js"
   ]
 }
