@@ -5,7 +5,7 @@ import Boxresult from './Boxresult';
 
 const Codebase = () => {
 
-  
+
   const [userCode, setUserCode] = useState('')
   const [apiOutput, setApiOutput] = useState(null)
 
@@ -57,28 +57,29 @@ const Codebase = () => {
 
 
   return (
-    <div>
-      <div className='text-4xl py-20 mb-32 h-full  text-white justify-center text-center'>
-        This is codebase
+    <div className='h-screen'>
+      <div className='text-4xl pt-10  text-white justify-center text-center'>
+        codebase
       </div>
 
-      <form className='w-80 py-20 my-10 justify-center align-middle self-center' onSubmit={myFunction}>
-        <label className='text-white '>code here:
+      <form className='w-80 my-10 mx-auto' onSubmit={myFunction}>
+        <label className='text-white'>code here:
           <pre>
             <textarea
-              className='text-white justify-center align-middle gap-10 bg-slate-800 h-40 p-4 w-40'
+              className='text-white bg-slate-800 h-40 p-4 w-40 scrollbar-thin scrollbar-thumb-gray-400'
               value={userCode}
               onChange={updateUserCode}
               rows={40} // Set the number of rows to 40
-              style={{ width: '100%' }} // Adjust the width as needed
+              style={{ width: '100%', scrollbarColor: 'gray black' }} // Adjust the width as needed
               placeholder="Enter your code here..."
             />
-          </pre>
 
+          </pre>
         </label>
 
-        <button className='bg-black w-auto text-white border border-white' type="submit">Run</button>
+        <button className='bg-black w-auto px-10 py-3  text-white border border-white' type="submit">Run</button>
       </form>
+
 
       <Boxresult result={apiOutput} />
 
