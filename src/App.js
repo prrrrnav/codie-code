@@ -7,7 +7,7 @@ import Codebase from './Codebase';
 
 function App() {
   return (
-    <div className="bg-black h-auto w-auto ">
+    <div className="bg-black h-fit w-auto ">
       <Navbar />
       <Routes>
         <Route path="/codie-code/" element={<Home/>} />     

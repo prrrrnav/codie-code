@@ -58,19 +58,23 @@ const Codebase = () => {
 
   return (
     <div className='h-screen'>
-      <div className='text-4xl pt-10  text-white justify-center text-center'>
+      {/* <div className='text-4xl pt-10  text-white justify-center text-center'>
         codebase
+      </div> */}
+      <div class="flex justify-center">
+        <i className='text-5xl text-gray-500 my-10'>Solve DSA</i>
       </div>
 
       <form className='w-80 my-10 mx-auto' onSubmit={myFunction}>
-        <label className='text-white'>code Java here:
+
+        <label className='text-white'>Code Java here:
           <pre>
             <textarea
               className='text-white bg-slate-800 h-40 p-4 w-40 scrollbar-thin scrollbar-thumb-gray-400'
               value={userCode}
               onChange={updateUserCode}
-              rows={40} // Set the number of rows to 40
-              style={{ width: '100%', scrollbarColor: 'gray black' }} // Adjust the width as needed
+              rows={40} 
+              style={{ width: '100%', scrollbarColor: 'gray black' }} 
               placeholder="Enter your code here..."
             />
 
