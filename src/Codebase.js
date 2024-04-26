@@ -63,7 +63,7 @@ const Codebase = () => {
       </div>
 
       <form className='w-80 my-10 mx-auto' onSubmit={myFunction}>
-        <label className='text-white'>code here:
+        <label className='text-white'>code JAVA here:
           <pre>
             <textarea
               className='text-white bg-slate-800 h-40 p-4 w-40 scrollbar-thin scrollbar-thumb-gray-400'
